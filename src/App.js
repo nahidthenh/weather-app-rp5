@@ -47,6 +47,7 @@ const App = () => {
           <div className="bottom">
             <div className="feels">
               {data.main ? <p className='bold'>{(((data.main.feels_like - 32) * 5) / 9).toFixed()}°C</p> : null}
+              {/* This For Fahrenheit  */}
               {/* {data.main ? <p className='bold'>{data.main.feels_like.toFixed()}°F</p> : null} */}
               <p>Feels Like</p>
             </div>
